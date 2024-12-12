@@ -23,6 +23,7 @@ public class MainAbsLibreria {
 		if (!s.getMap().containsKey(dni)) 
 		{
 			System.out.println(" no existe este socio");
+			System.out.println("");
 		}
 		
 		
