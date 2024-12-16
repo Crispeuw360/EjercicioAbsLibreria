@@ -124,6 +124,14 @@ public class ListaSocios {
 		}
 		return -1;
 	}
+	public void agregarSocio(String dni, Socio socio) {
+	    if (!map.containsKey(dni)) {
+	        map.put(dni, socio);
+	        System.out.println("Socio agregado con éxito.");
+	    } else {
+	        System.out.println("Ya existe un socio con este DNI.");
+	    }
+	}
 	
 	
 }
